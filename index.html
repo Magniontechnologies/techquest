@@ -105,8 +105,8 @@ function setSelectedInterest(e){var t=new Date;t.setTime(t.getTime()+6048e5),doc
   background-color: #192a56;
 
   position: absolute;
-top: 30%;
-left: 48%;
+top: 25%;
+left: 47%;
 
   margin: 100px auto;
   -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
@@ -1839,6 +1839,8 @@ preloader.fadeOut(preloaderFadeOutTime);
 }
 hidePreloader();
 });
+
+$(window).load(function(){hidePreloader();})
 </script>
 </body>
 
